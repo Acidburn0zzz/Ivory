@@ -1,0 +1,30 @@
+{
+    "title": "μTube",
+    "name": "ivory",
+    "id": "ivory@particlecore.github.io",
+    "version": "0.0.1",
+    "description": "YouTube extra small",
+    "main": "main.js",
+    "author": "Yonez",
+    "license": "Custom",
+    "engines": {
+        "firefox": ">=38",
+        "fennec": ">=38"
+    },
+    "permissions": {
+        "private-browsing": true,
+        "cross-domain-content": [
+            "http://www.youtube.com/",
+            "https://www.youtube.com/",
+            "http://s.ytimg.com/",
+            "https://s.ytimg.com/"]
+    },
+    "preferences": [{
+        "name": "ivoSets",
+        "title": "Ivory settings",
+        "description": "Ivory settings",
+        "type": "string",
+        "value": "{}",
+        "hidden": true
+    }]
+}
