@@ -25,7 +25,7 @@ function settingsHandler(worker) {
 
 pageMod.PageMod({
     include: "*.youtube.com",
-    attachTo: ["top", "frame"],
+    attachTo: "top",
     contentScriptWhen: "start",
     contentScriptFile: "./uTube.js",
     contentStyleFile: "./uTube.css",

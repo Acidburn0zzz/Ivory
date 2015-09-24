@@ -2,7 +2,7 @@
     "title": "μTube",
     "name": "ivory",
     "id": "ivory@particlecore.github.io",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "YouTube extra small",
     "main": "main.js",
     "author": "Yonez",
