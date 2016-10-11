@@ -3,13 +3,13 @@
 // @name            Block YouTube Ads
 // @namespace       https://github.com/ParticleCore
 // @description     Take control over YouTube ads
-// @icon            https://raw.githubusercontent.com/ParticleCore/Ivory/gh-pages/images/BYTA%2Bicon.png
+// @icon            https://raw.githubusercontent.com/ParticleCore/Ivory/gh-pages/images/YTAB%2Bicon.png
 // @match           *://www.youtube.com/*
 // @exclude         *://www.youtube.com/tv*
 // @exclude         *://www.youtube.com/embed/*
 // @exclude         *://www.youtube.com/live_chat*
 // @run-at          document-start
-// @downloadURL     https://github.com/ParticleCore/Ivory/raw/master/src/Userscript/BlockYouTubeAds.user.js
+// @downloadURL     https://github.com/ParticleCore/Ivory/raw/master/src/Userscript/YouTubeAdBlocker.user.js
 // @homepageURL     https://github.com/ParticleCore/Ivory
 // @supportURL      https://github.com/ParticleCore/Ivory/wiki
 // @contributionURL https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=UMVQJJFG4BFHW
@@ -228,7 +228,7 @@
                 holder = document.createElement("link");
                 holder.rel = "stylesheet";
                 holder.type = "text/css";
-                holder.href = "https://particlecore.github.io/Ivory/stylesheets/BlockYouTubeAds.css";
+                holder.href = "https://particlecore.github.io/Ivory/stylesheets/YouTubeAdBlocker.css";
                 document.documentElement.appendChild(holder);
             } else if (window.chrome) {
                 holder = document.createElement("style");
